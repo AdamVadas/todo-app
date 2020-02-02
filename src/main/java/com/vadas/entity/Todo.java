@@ -16,7 +16,6 @@ public class Todo {
     private LocalDate dateCompleted;
     private LocalDate dateCreated;
 
-
     @PrePersist
     private void init(){
         setDateCreated(LocalDate.now());
