@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="434207e4-9c78-4fc5-ae8c-7b75e464aff0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/rest/TodoRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/rest/TodoRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vadas/rest/TodoRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vadas/rest/TodoRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vadas/service/QueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vadas/service/QueryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vadas/service/SecurityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vadas/service/SecurityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vadas/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vadas/service/TodoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-02-21T15-40-13_093.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vadas.service.TodoServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vadas.service.TodoServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vadas.service.TodoServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vadas.service.TodoServiceTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,25 +133,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582302203456" />
-    <state width="1493" height="405" key="GridCell.Tab.0.bottom" timestamp="1582295517651">
+    <state width="1493" height="590" key="GridCell.Tab.0.bottom" timestamp="1582309138224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582295517651" />
+    <state width="1493" height="590" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582309138224" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580660223865" />
-    <state width="1493" height="405" key="GridCell.Tab.0.center" timestamp="1582295517651">
+    <state width="1493" height="590" key="GridCell.Tab.0.center" timestamp="1582309138224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582295517651" />
+    <state width="1493" height="590" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582309138224" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580660223865" />
-    <state width="1493" height="405" key="GridCell.Tab.0.left" timestamp="1582295517651">
+    <state width="1493" height="590" key="GridCell.Tab.0.left" timestamp="1582309138224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582295517651" />
+    <state width="1493" height="590" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582309138224" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580660223865" />
-    <state width="1493" height="405" key="GridCell.Tab.0.right" timestamp="1582295517651">
+    <state width="1493" height="590" key="GridCell.Tab.0.right" timestamp="1582309138224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582295517651" />
+    <state width="1493" height="590" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1582309138224" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580660223865" />
     <state x="136" y="0" key="SettingsEditor" timestamp="1582280020795">
       <screen x="0" y="0" width="1536" height="824" />

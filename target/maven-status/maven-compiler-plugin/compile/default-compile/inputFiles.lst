@@ -5,5 +5,8 @@ D:\xYxxYy\git\todo-app\src\main\java\com\vadas\rest\TodoConfig.java
 D:\xYxxYy\git\todo-app\src\main\java\com\vadas\service\TodoService.java
 D:\xYxxYy\git\todo-app\src\main\java\com\vadas\entity\Todo.java
 D:\xYxxYy\git\todo-app\src\main\java\com\vadas\entity\User.java
+D:\xYxxYy\git\todo-app\src\main\java\com\vadas\rest\SecurityFilter.java
+D:\xYxxYy\git\todo-app\src\main\java\com\vadas\rest\UserRest.java
 D:\xYxxYy\git\todo-app\src\main\java\com\vadas\service\QueryService.java
 D:\xYxxYy\git\todo-app\src\main\java\com\vadas\service\CDIProducer.java
+D:\xYxxYy\git\todo-app\src\main\java\com\vadas\rest\Authz.java

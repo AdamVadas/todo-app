@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.vadas.service.TodoServiceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.397 s <<< FAILURE! - in com.vadas.service.TodoServiceTest
-com.vadas.service.TodoServiceTest  Time elapsed: 8.381 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.367 s <<< FAILURE! - in com.vadas.service.TodoServiceTest
+com.vadas.service.TodoServiceTest  Time elapsed: 8.351 s  <<< ERROR!
 java.lang.IllegalArgumentException: org.jboss.arquillian.protocol.servlet.v_3.ServletProtocolDeploymentPackager can not handle archive of type org.jboss.shrinkwrap.impl.base.spec.JavaArchiveImpl
 

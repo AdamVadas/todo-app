@@ -1,9 +1,14 @@
-com\vadas\rest\TodoConfig.class
 com\vadas\rest\TodoRest.class
-com\vadas\service\TodoService.class
+com\vadas\rest\SecurityFilter$1.class
 com\vadas\entity\User.class
-com\vadas\service\CDIProducer.class
+com\vadas\rest\Authz.class
+com\vadas\rest\SecurityFilter$1$1.class
 com\vadas\entity\Todo.class
+com\vadas\rest\UserRest.class
 com\vadas\entity\AbstractEntity.class
 com\vadas\service\QueryService.class
+com\vadas\rest\TodoConfig.class
+com\vadas\service\TodoService.class
+com\vadas\rest\SecurityFilter.class
+com\vadas\service\CDIProducer.class
 com\vadas\service\SecurityUtil.class

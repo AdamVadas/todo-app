@@ -3,10 +3,10 @@ package com.vadas.service;
 import com.vadas.entity.Todo;
 import com.vadas.entity.User;
 
-import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+import javax.ws.rs.core.SecurityContext;
 import java.util.List;
 import java.util.Map;
 
@@ -24,10 +24,8 @@ public class TodoService {
 
     private String email;
 
-    @PostConstruct
-    private void init() {
-        email = "";
-    }
+    @Inject
+    private SecurityContext securityContext;
 
     public User saveUser(User user){
         Integer count = (Integer) queryService.countUserByEmail(user.getEmail()).get(0);
@@ -43,7 +41,7 @@ public class TodoService {
     }
 
     public Todo createTodo(Todo todo) {
-        User userByEmail = queryService.findUserByEmail(email);
+        User userByEmail = queryService.findUserByEmail(securityContext.getUserPrincipal().getName());
         if(userByEmail != null){
             todo.setTodoOwner(userByEmail);
             entityManager.persist(todo);
