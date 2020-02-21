@@ -6,6 +6,7 @@ import com.vadas.entity.User;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+import javax.ws.rs.core.SecurityContext;
 import java.util.List;
 
 @Stateless
@@ -16,6 +17,9 @@ public class QueryService {
 
     @Inject
     private SecurityUtil securityUtil;
+
+    @Inject
+    private SecurityContext securityContext;
 
     public User findUserByEmail(String email) {
         List<User> userList = entityManager.createNamedQuery(User.FIND_USER_BY_EMAIL, User.class).setParameter("email", email).getResultList();
@@ -29,10 +33,10 @@ public class QueryService {
         return entityManager.createNativeQuery("select count (id) from TodoUser where exists (select id from TodoUser where email = ?").setParameter(1, email).getResultList();
     }
 
-    public Todo findTodoById(Long id, String email) {
+    public Todo findTodoById(Long id) {
         List<Todo> resultList = entityManager.createNamedQuery(Todo.FIND_TODO_BY_ID, Todo.class)
                 .setParameter("id", id)
-                .setParameter("email", email)
+                .setParameter("email", securityContext.getUserPrincipal().getName())
                 .getResultList();
         if (!resultList.isEmpty()) {
             return resultList.get(0);
@@ -40,15 +44,15 @@ public class QueryService {
         return null;
     }
 
-    public List<Todo> getAllTodos(String email) {
+    public List<Todo> getAllTodos() {
         return entityManager.createNamedQuery(Todo.FIND_ALL_TODOS_BY_USER, Todo.class)
-                .setParameter("email", email)
+                .setParameter("email", securityContext.getUserPrincipal().getName())
                 .getResultList();
     }
 
-    public List<Todo> getAllTodosByTask(String taskText, String email) {
+    public List<Todo> getAllTodosByTask(String taskText) {
         return entityManager.createNamedQuery(Todo.FIND_TODO_BY_TASK, Todo.class)
-                .setParameter("email", email)
+                .setParameter("email", securityContext.getUserPrincipal().getName())
                 .setParameter("task", "%" + taskText + "%")
                 .getResultList();
     }

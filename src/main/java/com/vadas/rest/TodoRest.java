@@ -1,6 +1,7 @@
 package com.vadas.rest;
 
 import com.vadas.entity.Todo;
+import com.vadas.service.QueryService;
 import com.vadas.service.TodoService;
 
 import javax.inject.Inject;
@@ -12,10 +13,14 @@ import java.util.List;
 @Path("todo")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
+@Authz
 public class TodoRest {
 
     @Inject
     TodoService todoService;
+
+    @Inject
+    QueryService queryService;
 
     @Path("new")
     @POST
@@ -34,13 +39,13 @@ public class TodoRest {
     @Path("{id}")
     @GET
     public Todo getTodo(@PathParam("id") Long id) {
-        return todoService.findTodoById(id);
+        return queryService.findTodoById(id);
     }
 
     @Path("list")
     @GET
     public List<Todo> getTodos() {
-        return todoService.getTodos();
+        return queryService.getAllTodos();
     }
 
     @Path("status")
