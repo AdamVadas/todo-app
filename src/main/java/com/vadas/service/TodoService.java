@@ -8,6 +8,7 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import java.util.List;
+import java.util.Map;
 
 @Stateless
 public class TodoService {
@@ -18,6 +19,9 @@ public class TodoService {
     @Inject
     private QueryService queryService;
 
+    @Inject
+    private SecurityUtil securityUtil;
+
     private String email;
 
     @PostConstruct
@@ -26,7 +30,11 @@ public class TodoService {
     }
 
     public User saveUser(User user){
+        Map<String, String> credMap = securityUtil.hashPassword(user.getPassword());
+        user.setPassword(credMap.get(SecurityUtil.HASHED_PASSWORD_KEY));
+        user.setSalt(credMap.get(SecurityUtil.SALT_KEY));
         entityManager.persist(user);
+        credMap.clear();
         return user;
     }
 

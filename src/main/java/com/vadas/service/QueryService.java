@@ -17,4 +17,8 @@ public class QueryService {
         return entityManager.createNamedQuery(User.FIND_USER_BY_EMAIL, User.class).setParameter("email", email).getResultList().get(0);
     }
 
+    public boolean authenticateUser(String email, String password){
+        return false;
+    }
+
 }
