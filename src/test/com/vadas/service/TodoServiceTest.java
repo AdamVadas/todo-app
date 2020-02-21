@@ -1,5 +1,6 @@
 package com.vadas.service;
 
+import com.vadas.entity.Todo;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -14,10 +15,11 @@ import static org.junit.Assert.*;
 
 @RunWith(Arquillian.class)
 public class TodoServiceTest {
+
     @Deployment
     public static JavaArchive createDeployment(){
         return ShrinkWrap.create(JavaArchive.class)
-                .addClass(TodoService.class)
+                .addClasses(TodoService.class, Todo.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
