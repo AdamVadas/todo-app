@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="434207e4-9c78-4fc5-ae8c-7b75e464aff0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/CDIProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/entity/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/TodoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

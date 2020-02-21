@@ -1,34 +1,49 @@
 package com.vadas.service;
 
 import com.vadas.entity.Todo;
+import com.vadas.entity.User;
 
+import javax.annotation.PostConstruct;
+import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.transaction.Transactional;
 import java.util.List;
 
-@Transactional
+@Stateless
 public class TodoService {
 
-    @PersistenceContext
+    @Inject
     EntityManager entityManager;
 
-    public Todo createTodo(Todo todo){
-        //Persist into DB
-        entityManager.persist(todo);
+    @Inject
+    private QueryService queryService;
+
+    private String email;
+
+    @PostConstruct
+    private void init() {
+        email = "";
+    }
+
+    public Todo createTodo(Todo todo) {
+        User userByEmail = queryService.findUserByEmail(email);
+        if(userByEmail != null){
+            todo.setTodoOwner(userByEmail);
+            entityManager.persist(todo);
+        }
         return todo;
     }
 
-    public Todo updateTodo(Todo todo){
+    public Todo updateTodo(Todo todo) {
         entityManager.merge(todo);
         return todo;
     }
 
-    public Todo findTodoById(Long id){
+    public Todo findTodoById(Long id) {
         return entityManager.find(Todo.class, id);
     }
 
-    public List<Todo> getTodos(){
+    public List<Todo> getTodos() {
         return entityManager.createQuery("SELECT t from Todo t", Todo.class).getResultList();
     }
 
