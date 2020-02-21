@@ -25,6 +25,9 @@ public class Todo extends AbstractEntity {
     private LocalDate dateCompleted;
     private LocalDate dateCreated;
 
+    @ManyToOne
+    private User todoOwner;
+
     @PrePersist
     private void init(){
         setDateCreated(LocalDate.now());
