@@ -1,12 +1,17 @@
 package com.vadas.service;
 
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.impl.crypto.MacProvider;
 import org.apache.shiro.codec.Hex;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.Sha512Hash;
 import org.apache.shiro.util.ByteSource;
 
+import javax.annotation.PostConstruct;
+import javax.crypto.SecretKey;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
+import java.security.Key;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
@@ -21,6 +26,12 @@ public class SecurityUtil {
 
     public static final String HASHED_PASSWORD_KEY = "hashedPassword";
     public static final String SALT_KEY = "salt";
+    private SecretKey securityKey;
+
+    @PostConstruct
+    private void init(){
+        securityKey = generateKey();
+    }
 
     public Date toDate(LocalDateTime localDateTime){
         return Date.from(localDateTime.atZone(ZoneId.systemDefault()).toInstant());
@@ -50,5 +61,13 @@ public class SecurityUtil {
 
     public boolean authenticateUser(String email, String password){
         return queryService.authenticateUser(email, password);
+    }
+
+    private SecretKey generateKey(){
+        return MacProvider.generateKey(SignatureAlgorithm.HS512);
+    }
+
+    public SecretKey getSecurityKey() {
+        return securityKey;
     }
 }
