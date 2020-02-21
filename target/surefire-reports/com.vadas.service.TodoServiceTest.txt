@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.vadas.service.TodoServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 57.309 s <<< FAILURE! - in com.vadas.service.TodoServiceTest
+findTodoById(com.vadas.service.TodoServiceTest)  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
+
+updateTodo(com.vadas.service.TodoServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
+
+createTodo(com.vadas.service.TodoServiceTest)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
+
+getTodos(com.vadas.service.TodoServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
+

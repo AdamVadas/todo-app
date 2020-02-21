@@ -10,11 +10,7 @@ import java.lang.annotation.Native;
 import java.time.LocalDate;
 
 @Entity
-public class Todo {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Todo extends AbstractEntity {
 
     @NotEmpty(message = "Task must not be empty!")
     @Size(min = 10, message = "Minimum required characters: 10")
@@ -32,14 +28,6 @@ public class Todo {
     @PrePersist
     private void init(){
         setDateCreated(LocalDate.now());
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getTask() {
