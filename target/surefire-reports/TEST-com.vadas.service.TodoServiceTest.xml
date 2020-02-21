@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vadas.service.TodoServiceTest" time="57.309" tests="4" errors="4" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vadas.service.TodoServiceTest" time="8.397" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.class.path" value="D:\xYxxYy\git\todo-app\target\test-classes;D:\xYxxYy\git\todo-app\target\classes;C:\Users\VADAS\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\VADAS\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\VADAS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-container\1.4.0.Final\arquillian-junit-container-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-core\1.4.0.Final\arquillian-junit-core-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.4.0.Final\arquillian-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.4.0.Final\arquillian-core-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.4.0.Final\arquillian-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.4.0.Final\arquillian-core-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.4.0.Final\arquillian-container-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.4.0.Final\arquillian-container-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.4.0.Final\arquillian-core-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.4.0.Final\arquillian-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.4.0.Final\arquillian-container-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.4.0.Final\arquillian-config-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.4.0.Final\arquillian-config-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.4.0.Final\arquillian-config-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.4.0.Final\arquillian-container-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\VADAS\.m2\repository\fish\payara\arquillian\arquillian-payara-server-embedded\1.1\arquillian-payara-server-embedded-1.1.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.4.0.Final\arquillian-container-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.4.0.Final\arquillian-protocol-servlet-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.4.0.Final\arquillian-testenricher-cdi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.4.0.Final\arquillian-testenricher-ejb-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.4.0.Final\arquillian-testenricher-resource-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.4.0.Final\arquillian-testenricher-initialcontext-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\fish\payara\extras\payara-embedded-all\5.194\payara-embedded-all-5.194.jar;C:\Users\VADAS\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\VADAS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="D:\xYxxYy\git\todo-app\target\test-classes;D:\xYxxYy\git\todo-app\target\classes;C:\Users\VADAS\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\VADAS\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\VADAS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-core\1.5.0\shiro-core-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-lang\1.5.0\shiro-lang-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-cache\1.5.0\shiro-cache-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-crypto-hash\1.5.0\shiro-crypto-hash-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-crypto-core\1.5.0\shiro-crypto-core-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-crypto-cipher\1.5.0\shiro-crypto-cipher-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-config-core\1.5.0\shiro-config-core-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-config-ogdl\1.5.0\shiro-config-ogdl-1.5.0.jar;C:\Users\VADAS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\VADAS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-event\1.5.0\shiro-event-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\slf4j\slf4j-simple\1.8.0-beta2\slf4j-simple-1.8.0-beta2.jar;C:\Users\VADAS\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-container\1.4.0.Final\arquillian-junit-container-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-core\1.4.0.Final\arquillian-junit-core-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.4.0.Final\arquillian-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.4.0.Final\arquillian-core-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.4.0.Final\arquillian-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.4.0.Final\arquillian-core-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.4.0.Final\arquillian-container-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.4.0.Final\arquillian-container-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.4.0.Final\arquillian-core-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.4.0.Final\arquillian-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.4.0.Final\arquillian-container-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.4.0.Final\arquillian-config-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.4.0.Final\arquillian-config-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.4.0.Final\arquillian-config-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.4.0.Final\arquillian-container-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\VADAS\.m2\repository\fish\payara\arquillian\arquillian-payara-server-embedded\1.1\arquillian-payara-server-embedded-1.1.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.4.0.Final\arquillian-container-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.4.0.Final\arquillian-protocol-servlet-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.4.0.Final\arquillian-testenricher-cdi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.4.0.Final\arquillian-testenricher-ejb-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.4.0.Final\arquillian-testenricher-resource-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.4.0.Final\arquillian-testenricher-initialcontext-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\fish\payara\extras\payara-embedded-all\5.194\payara-embedded-all-5.194.jar;C:\Users\VADAS\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\VADAS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="HU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\VADAS\AppData\Local\Temp\surefire1002217959484133782\surefirebooter13313281885609422937.jar C:\Users\VADAS\AppData\Local\Temp\surefire1002217959484133782 2020-02-21T12-25-20_090-jvmRun1 surefire3406742384724947136tmp surefire_0524573468630672166tmp"/>
+    <property name="sun.java.command" value="C:\Users\VADAS\AppData\Local\Temp\surefire17610439256840870948\surefirebooter11995367503187847182.jar C:\Users\VADAS\AppData\Local\Temp\surefire17610439256840870948 2020-02-21T15-40-13_093-jvmRun1 surefire1994121292962393653tmp surefire_010075888723949017389tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\xYxxYy\git\todo-app\target\test-classes;D:\xYxxYy\git\todo-app\target\classes;C:\Users\VADAS\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\VADAS\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\VADAS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-container\1.4.0.Final\arquillian-junit-container-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-core\1.4.0.Final\arquillian-junit-core-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.4.0.Final\arquillian-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.4.0.Final\arquillian-core-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.4.0.Final\arquillian-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.4.0.Final\arquillian-core-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.4.0.Final\arquillian-container-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.4.0.Final\arquillian-container-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.4.0.Final\arquillian-core-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.4.0.Final\arquillian-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.4.0.Final\arquillian-container-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.4.0.Final\arquillian-config-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.4.0.Final\arquillian-config-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.4.0.Final\arquillian-config-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.4.0.Final\arquillian-container-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\VADAS\.m2\repository\fish\payara\arquillian\arquillian-payara-server-embedded\1.1\arquillian-payara-server-embedded-1.1.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.4.0.Final\arquillian-container-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.4.0.Final\arquillian-protocol-servlet-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.4.0.Final\arquillian-testenricher-cdi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.4.0.Final\arquillian-testenricher-ejb-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.4.0.Final\arquillian-testenricher-resource-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.4.0.Final\arquillian-testenricher-initialcontext-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\fish\payara\extras\payara-embedded-all\5.194\payara-embedded-all-5.194.jar;C:\Users\VADAS\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\VADAS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="D:\xYxxYy\git\todo-app\target\test-classes;D:\xYxxYy\git\todo-app\target\classes;C:\Users\VADAS\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\VADAS\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\VADAS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-core\1.5.0\shiro-core-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-lang\1.5.0\shiro-lang-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-cache\1.5.0\shiro-cache-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-crypto-hash\1.5.0\shiro-crypto-hash-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-crypto-core\1.5.0\shiro-crypto-core-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-crypto-cipher\1.5.0\shiro-crypto-cipher-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-config-core\1.5.0\shiro-config-core-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-config-ogdl\1.5.0\shiro-config-ogdl-1.5.0.jar;C:\Users\VADAS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\VADAS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\VADAS\.m2\repository\org\apache\shiro\shiro-event\1.5.0\shiro-event-1.5.0.jar;C:\Users\VADAS\.m2\repository\org\slf4j\slf4j-simple\1.8.0-beta2\slf4j-simple-1.8.0-beta2.jar;C:\Users\VADAS\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-container\1.4.0.Final\arquillian-junit-container-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-core\1.4.0.Final\arquillian-junit-core-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.4.0.Final\arquillian-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.4.0.Final\arquillian-core-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.4.0.Final\arquillian-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.4.0.Final\arquillian-core-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.4.0.Final\arquillian-container-test-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.4.0.Final\arquillian-container-test-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.4.0.Final\arquillian-core-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.4.0.Final\arquillian-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.4.0.Final\arquillian-container-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.4.0.Final\arquillian-config-api-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.4.0.Final\arquillian-config-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.4.0.Final\arquillian-config-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.4.0.Final\arquillian-container-test-impl-base-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\VADAS\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\VADAS\.m2\repository\fish\payara\arquillian\arquillian-payara-server-embedded\1.1\arquillian-payara-server-embedded-1.1.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.4.0.Final\arquillian-container-spi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.4.0.Final\arquillian-protocol-servlet-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.4.0.Final\arquillian-testenricher-cdi-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.4.0.Final\arquillian-testenricher-ejb-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.4.0.Final\arquillian-testenricher-resource-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.4.0.Final\arquillian-testenricher-initialcontext-1.4.0.Final.jar;C:\Users\VADAS\.m2\repository\fish\payara\extras\payara-embedded-all\5.194\payara-embedded-all-5.194.jar;C:\Users\VADAS\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\VADAS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\VADAS"/>
     <property name="user.language" value="hu"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\VADAS\AppData\Local\Temp\surefire1002217959484133782\surefirebooter13313281885609422937.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\VADAS\AppData\Local\Temp\surefire17610439256840870948\surefirebooter11995367503187847182.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -55,605 +55,96 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="findTodoById" classname="com.vadas.service.TodoServiceTest" time="0.02">
-    <error message="ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer." type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
+  <testcase name="com.vadas.service.TodoServiceTest" classname="com.vadas.service.TodoServiceTest" time="8.381">
+    <error message="org.jboss.arquillian.protocol.servlet.v_3.ServletProtocolDeploymentPackager can not handle archive of type org.jboss.shrinkwrap.impl.base.spec.JavaArchiveImpl" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: org.jboss.arquillian.protocol.servlet.v_3.ServletProtocolDeploymentPackager can not handle archive of type org.jboss.shrinkwrap.impl.base.spec.JavaArchiveImpl
 </error>
-    <system-err><![CDATA[febr. 21, 2020 12:25:22 DU. com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findDerbyClient
+    <system-err><![CDATA[febr. 21, 2020 3:40:16 DU. com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findDerbyClient
 INFO: Cannot find javadb client jar file, derby jdbc driver will not be available by default.
-febr. 21, 2020 12:25:22 DU. com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findH2Client
+febr. 21, 2020 3:40:16 DU. com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findH2Client
 INFO: Cannot find h2db client jar file, h2 jdbc driver will not be available by default.
-febr. 21, 2020 12:25:23 DU. org.hibernate.validator.internal.util.Version <clinit>
+febr. 21, 2020 3:40:16 DU. org.hibernate.validator.internal.util.Version <clinit>
 INFO: HV000001: Hibernate Validator null
-febr. 21, 2020 12:25:24 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
-INFO: Network Listener http-listener started in: 220ms - bound to [/0.0.0.0:8181]
-febr. 21, 2020 12:25:24 DU. org.glassfish.grizzly.http2.Http2AddOn setup
+febr. 21, 2020 3:40:17 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+INFO: Network Listener http-listener started in: 186ms - bound to [/0.0.0.0:8181]
+febr. 21, 2020 3:40:17 DU. org.glassfish.grizzly.http2.Http2AddOn setup
 WARNING: TLS ALPN (Application-Layer Protocol Negotiation) support is not available. HTTP/2 support will not be enabled.
-febr. 21, 2020 12:25:24 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+febr. 21, 2020 3:40:17 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
 INFO: Network Listener https-listener started in: 0ms - bound to [/0.0.0.0:8182]
-febr. 21, 2020 12:25:24 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+febr. 21, 2020 3:40:17 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
 INFO: Network Listener admin-listener started in: 0ms - bound to [/0.0.0.0:4848]
-febr. 21, 2020 12:25:24 DU. com.sun.enterprise.v3.services.impl.GrizzlyService postConstruct
-INFO: Grizzly 2.4.3 started in: 620ms - bound to [http-listener:8181, https-listener:8182, admin-listener:4848]
-febr. 21, 2020 12:25:25 DU. com.hazelcast.instance.AddressPicker
+febr. 21, 2020 3:40:17 DU. com.sun.enterprise.v3.services.impl.GrizzlyService postConstruct
+INFO: Grizzly 2.4.3 started in: 523ms - bound to [http-listener:8181, https-listener:8182, admin-listener:4848]
+febr. 21, 2020 3:40:18 DU. com.hazelcast.instance.AddressPicker
 INFO: [LOCAL] [development] [3.12] Using bind address: /192.168.56.1:4900
-febr. 21, 2020 12:25:25 DU. com.hazelcast.instance.AddressPicker
+febr. 21, 2020 3:40:18 DU. com.hazelcast.instance.AddressPicker
 INFO: [LOCAL] [development] [3.12] Using public address: /192.168.56.1:4900
-febr. 21, 2020 12:25:25 DU. com.hazelcast.system
+febr. 21, 2020 3:40:18 DU. com.hazelcast.system
 INFO: [192.168.56.1]:4900 [development] [3.12] Hazelcast 3.12 (20190409 - 915d83a) starting at [192.168.56.1]:4900
-febr. 21, 2020 12:25:25 DU. com.hazelcast.system
+febr. 21, 2020 3:40:18 DU. com.hazelcast.system
 INFO: [192.168.56.1]:4900 [development] [3.12] Copyright (c) 2008-2019, Hazelcast, Inc. All Rights Reserved.
-febr. 21, 2020 12:25:25 DU. com.hazelcast.instance.Node
+febr. 21, 2020 3:40:18 DU. com.hazelcast.instance.Node
 INFO: [192.168.56.1]:4900 [development] [3.12] A non-empty group password is configured for the Hazelcast member. Since version 3.8.2, members with the same group name, but with different group passwords (that do not use authentication) form a cluster. The group password configuration will be removed completely in a future release.
-febr. 21, 2020 12:25:25 DU. com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+febr. 21, 2020 3:40:18 DU. com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
 INFO: [192.168.56.1]:4900 [development] [3.12] Backpressure is disabled
-febr. 21, 2020 12:25:25 DU. com.hazelcast.instance.Node
+febr. 21, 2020 3:40:18 DU. com.hazelcast.instance.Node
 INFO: [192.168.56.1]:4900 [development] [3.12] Activating Discovery SPI Joiner
-febr. 21, 2020 12:25:25 DU. com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+febr. 21, 2020 3:40:18 DU. com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
 INFO: [192.168.56.1]:4900 [development] [3.12] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
-febr. 21, 2020 12:25:25 DU. com.hazelcast.internal.diagnostics.Diagnostics
+febr. 21, 2020 3:40:18 DU. com.hazelcast.internal.diagnostics.Diagnostics
 INFO: [192.168.56.1]:4900 [development] [3.12] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-febr. 21, 2020 12:25:25 DU. com.hazelcast.core.LifecycleService
+febr. 21, 2020 3:40:18 DU. com.hazelcast.core.LifecycleService
 INFO: [192.168.56.1]:4900 [development] [3.12] [192.168.56.1]:4900 is STARTING
-febr. 21, 2020 12:25:26 DU. com.hazelcast.nio.tcp.TcpIpConnector
-INFO: [192.168.56.1]:4900 [development] [3.12] Connecting to /192.168.56.1:5900, timeout: 10000, bind-any: true
-febr. 21, 2020 12:25:26 DU. com.hazelcast.nio.tcp.TcpIpConnector
+febr. 21, 2020 3:40:19 DU. com.hazelcast.nio.tcp.TcpIpConnector
 INFO: [192.168.56.1]:4900 [development] [3.12] Connecting to /192.168.178.52:5900, timeout: 10000, bind-any: true
-febr. 21, 2020 12:25:28 DU. com.hazelcast.nio.tcp.TcpIpConnector
-INFO: [192.168.56.1]:4900 [development] [3.12] Could not connect to: /192.168.56.1:5900. Reason: SocketException[Connection refused: no further information to address /192.168.56.1:5900]
-febr. 21, 2020 12:25:28 DU. com.hazelcast.nio.tcp.TcpIpConnector
+febr. 21, 2020 3:40:19 DU. com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [192.168.56.1]:4900 [development] [3.12] Connecting to /192.168.56.1:5900, timeout: 10000, bind-any: true
+febr. 21, 2020 3:40:21 DU. com.hazelcast.nio.tcp.TcpIpConnector
 INFO: [192.168.56.1]:4900 [development] [3.12] Could not connect to: /192.168.178.52:5900. Reason: SocketException[Connection refused: no further information to address /192.168.178.52:5900]
-febr. 21, 2020 12:25:28 DU. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
-INFO: [192.168.56.1]:4900 [development] [3.12] [192.168.56.1]:5900 is added to the blacklist.
-febr. 21, 2020 12:25:28 DU. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+febr. 21, 2020 3:40:21 DU. com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [192.168.56.1]:4900 [development] [3.12] Could not connect to: /192.168.56.1:5900. Reason: SocketException[Connection refused: no further information to address /192.168.56.1:5900]
+febr. 21, 2020 3:40:21 DU. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
 INFO: [192.168.56.1]:4900 [development] [3.12] [192.168.178.52]:5900 is added to the blacklist.
-febr. 21, 2020 12:25:29 DU. com.hazelcast.internal.cluster.ClusterService
+febr. 21, 2020 3:40:21 DU. com.hazelcast.internal.cluster.impl.DiscoveryJoiner
+INFO: [192.168.56.1]:4900 [development] [3.12] [192.168.56.1]:5900 is added to the blacklist.
+febr. 21, 2020 3:40:22 DU. com.hazelcast.internal.cluster.ClusterService
 INFO: [192.168.56.1]:4900 [development] [3.12] 
 
 Members {size:1, ver:1} [
-	Member [192.168.56.1]:4900 - 8cc9be12-6f8f-46e4-85c0-0660284b4b83 this
+	Member [192.168.56.1]:4900 - 270125b5-2fda-4367-bc78-1c21bee1e8ee this
 ]
 
-febr. 21, 2020 12:25:29 DU. com.hazelcast.internal.jmx.ManagementService
+febr. 21, 2020 3:40:22 DU. com.hazelcast.internal.jmx.ManagementService
 INFO: [192.168.56.1]:4900 [development] [3.12] Hazelcast JMX agent enabled.
-febr. 21, 2020 12:25:29 DU. com.hazelcast.core.LifecycleService
+febr. 21, 2020 3:40:22 DU. com.hazelcast.core.LifecycleService
 INFO: [192.168.56.1]:4900 [development] [3.12] [192.168.56.1]:4900 is STARTED
-febr. 21, 2020 12:25:29 DU. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
+febr. 21, 2020 3:40:22 DU. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
 INFO: Hazelcast Instance Bound to JNDI at payara/Hazelcast
-febr. 21, 2020 12:25:29 DU. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
+febr. 21, 2020 3:40:22 DU. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
 INFO: JSR107 Caching Provider Bound to JNDI at payara/CachingProvider
-febr. 21, 2020 12:25:29 DU. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
+febr. 21, 2020 3:40:22 DU. fish.payara.nucleus.hazelcast.HazelcastCore bindToJNDI
 INFO: JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager
-febr. 21, 2020 12:25:29 DU. com.hazelcast.internal.partition.impl.PartitionStateManager
+febr. 21, 2020 3:40:22 DU. com.hazelcast.internal.partition.impl.PartitionStateManager
 INFO: [192.168.56.1]:4900 [development] [3.12] Initializing cluster partition table arrangement...
-febr. 21, 2020 12:25:29 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+febr. 21, 2020 3:40:22 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
 INFO: Network Listener iiop-service started in: 0ms - bound to [/0.0.0.0:3700]
-febr. 21, 2020 12:25:29 DU. com.sun.enterprise.v3.server.AppServerStartup postStartupJob
-INFO: Undefined Product Name - define product and version info in config/branding  0.0.0  (0) startup time : Embedded (1 340ms), startup services(6 330ms), total(7 670ms)
-febr. 21, 2020 12:25:29 DU. fish.payara.nucleus.cluster.PayaraCluster logClusterStatus
+febr. 21, 2020 3:40:22 DU. com.sun.enterprise.v3.server.AppServerStartup postStartupJob
+INFO: Undefined Product Name - define product and version info in config/branding  0.0.0  (0) startup time : Embedded (1 188ms), startup services(5 937ms), total(7 125ms)
+febr. 21, 2020 3:40:22 DU. fish.payara.nucleus.cluster.PayaraCluster logClusterStatus
 INFO: Data Grid Status 
 Payara Data Grid State: DG Version: 35 DG Name: development DG Size: 1
 Instances: {
- DataGrid: development Instance Group: MicroShoal Name: server Lite: false This: true UUID: 8cc9be12-6f8f-46e4-85c0-0660284b4b83 Address: /192.168.56.1:4900
+ DataGrid: development Instance Group: MicroShoal Name: server Lite: false This: true UUID: 270125b5-2fda-4367-bc78-1c21bee1e8ee Address: /192.168.56.1:4900
 }
-febr. 21, 2020 12:25:29 DU. fish.payara.nucleus.notification.NotificationService bootstrapNotificationService
+febr. 21, 2020 3:40:22 DU. fish.payara.nucleus.notification.NotificationService bootstrapNotificationService
 INFO: Payara Notification Service bootstrapped with configuration: NotificationExecutionOptions{enabled=true, notifierConfigurationExecutionOptionsList={LOG=LogNotifierConfigurationExecutionOptions{useSeparateLogFile=false} NotifierConfigurationExecutionOptions{notifierType=LOG, enabled=true, noisy=true}}}
-febr. 21, 2020 12:25:30 DU. org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread startConnector
+febr. 21, 2020 3:40:22 DU. org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread startConnector
 INFO: JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:8686/jndi/rmi://0.0.0.0:8686/jmxrmi
-febr. 21, 2020 12:25:30 DU. com.sun.enterprise.connectors.jms.util.JmsRaUtil getInstalledMqVersion
-WARNING: Check for a new version of MQ installation failed : C:\Users\VADAS\AppData\Local\Temp\gfembed5052741587039495318tmp\lib\install\applications\jmsra\..\imqjmsra.rar:C:\Users\VADAS\AppData\Local\Temp\gfembed5052741587039495318tmp\lib\install\applications\jmsra\imqjmsra.rar
-febr. 21, 2020 12:25:30 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
-INFO: Network Listener JMS_PROXY_default_JMS_host started in: 0ms - bound to [/0.0.0.0:7676]
-febr. 21, 2020 12:25:31 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
-WARNING: The SSL certificate has expired: [
-[
-  Version: V3
-  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
-  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
-
-  Key:  Sun RSA public key, 2048 bits
-  params: null
-  modulus: 21877342614735064986586094209008949861633415438321046094865735894101046869669024974234189221129376235137504163448391667494521959302368300673495711648664420351966300087244240539893392975177816108541817252818998001932142985065266407504518566289301698937041931668276581800733716890145024940625536991682725365140451115767110550542345758164504698636529042078537609343076050570785483670809094993963575569689277704991843533760219663288836022206035538841969109577376809337618824179167781883694301066738001489513517818892302945620562766589172426570508291886401623875028645352783701438149952282706361006848685772598444243814369
-  public exponent: 65537
-  Validity: [From: Fri Dec 24 18:50:51 CET 1999,
-               To: Tue Dec 24 19:20:51 CET 2019]
-  Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
-  SerialNumber: [    3863b966]
-
-Certificate Extensions: 4
-[1]: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
-Extension unknown: DER encoded OCTET string =
-0000: 04 10 30 0E 1B 08 56 35   2E 30 3A 34 2E 30 03 02  ..0...V5.0:4.0..
-0010: 04 90                                              ..
-
-
-[2]: ObjectId: 2.5.29.35 Criticality=false
-AuthorityKeyIdentifier [
-KeyIdentifier [
-0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
-0010: 09 16 B9 70                                        ...p
-]
-]
-
-[3]: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
-NetscapeCertType [
-   SSL CA
-   S/MIME CA
-   Object Signing CA]
-
-[4]: ObjectId: 2.5.29.14 Criticality=false
-SubjectKeyIdentifier [
-KeyIdentifier [
-0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
-0010: 09 16 B9 70                                        ...p
-]
-]
-
-]
-  Algorithm: [SHA1withRSA]
-  Signature:
-0000: 59 47 AC 21 84 8A 17 C9   9C 89 53 1E BA 80 85 1A  YG.!......S.....
-0010: C6 3C 4E 3E B1 9C B6 7C   C6 92 5D 18 64 02 E3 D3  .<N>......].d...
-0020: 06 08 11 61 7C 63 E3 2B   9D 31 03 70 76 D2 A3 28  ...a.c.+.1.pv..(
-0030: A0 F4 BB 9A 63 73 ED 6D   E5 2A DB ED 14 A9 2B C6  ....cs.m.*....+.
-0040: 36 11 D0 2B EB 07 8B A5   DA 9E 5C 19 9D 56 12 F5  6..+......\..V..
-0050: 54 29 C8 05 ED B2 12 2A   8D F4 03 1B FF E7 92 10  T).....*........
-0060: 87 B0 3A B5 C3 9D 05 37   12 A3 C7 F4 15 B9 D5 A4  ..:....7........
-0070: 39 16 9B 53 3A 23 91 F1   A8 82 A2 6A 88 68 C1 79  9..S:#.....j.h.y
-0080: 02 22 BC AA A6 D6 AE DF   B0 14 5F B8 87 D0 DD 7C  ."........_.....
-0090: 7F 7B FF AF 1C CF E6 DB   07 AD 5E DB 85 9D D0 2B  ..........^....+
-00A0: 0D 33 DB 04 D1 E6 49 40   13 2B 76 FB 3E E9 9C 89  .3....I@.+v.>...
-00B0: 0F 15 CE 18 B0 85 78 21   4F 6B 4F 0E FA 36 67 CD  ......x!OkO..6g.
-00C0: 07 F2 FF 08 D0 E2 DE D9   BF 2A AF B8 87 86 21 3C  .........*....!<
-00D0: 04 CA B7 94 68 7F CF 3C   E9 98 D7 38 FF EC C0 D9  ....h..<...8....
-00E0: 50 F0 2E 4B 58 AE 46 6F   D0 2E C3 60 DA 72 55 72  P..KX.Fo...`.rUr
-00F0: BD 4C 45 9E 61 BA BF 84   81 92 03 D1 D2 69 7C C5  .LE.a........i..
-
-]
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.security.SecurityLifecycle <init>
-INFO: Java security manager is disabled.
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.security.SecurityLifecycle onInitialization
-INFO: Entering Security Startup Service.
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.security.PolicyLoader installPolicyFromClassName
-INFO: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.security.SecurityLifecycle onInitialization
-INFO: Security Service(s) started successfully.
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.web.WebContainer createHttpListener
-INFO: Created HTTP listener http-listener on host/port 0.0.0.0:8181
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.web.WebContainer createHttpListener
-INFO: Created HTTP listener https-listener on host/port 0.0.0.0:8182
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.web.WebContainer createHttpListener
-INFO: Created HTTP listener admin-listener on host/port 0.0.0.0:4848
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.web.WebContainer createHosts
-INFO: Created virtual server server
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.web.WebContainer createHosts
-INFO: Created virtual server __asadmin
-febr. 21, 2020 12:25:32 DU. com.sun.enterprise.web.WebContainer loadSystemDefaultWebModules
-INFO: Virtual server server loaded default web module 
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. org.glassfish.hk2.classmodel.reflect.Parser awaitTermination
-INFO: visiting unvisited references
-febr. 21, 2020 12:25:33 DU. com.sun.logging.LogDomains getResourceBundle
-INFO: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.util for class com.sun.appserv.ClassLoaderUtil using jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a
-febr. 21, 2020 12:25:33 DU. com.sun.appserv.ClassLoaderUtil releaseLoader
-WARNING: classloaderutil.errorReleasingLoader
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.ArrayList jdk.internal.loader.URLClassPath.loaders accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @f2ff811
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:344)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:284)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:176)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:170)
-	at com.sun.appserv.ClassLoaderUtil.getField(ClassLoaderUtil.java:308)
-	at com.sun.appserv.ClassLoaderUtil.initForClosingJars(ClassLoaderUtil.java:290)
-	at com.sun.appserv.ClassLoaderUtil.init(ClassLoaderUtil.java:263)
-	at com.sun.appserv.ClassLoaderUtil.releaseLoader(ClassLoaderUtil.java:139)
-	at com.sun.appserv.ClassLoaderUtil.releaseLoader(ClassLoaderUtil.java:111)
-	at org.glassfish.web.loader.WebappClassLoader.stop(WebappClassLoader.java:1870)
-	at org.glassfish.web.loader.WebappClassLoader.preDestroy(WebappClassLoader.java:1831)
-	at org.glassfish.deployment.common.DeploymentContextImpl.getClassLoader(DeploymentContextImpl.java:266)
-	at org.glassfish.deployment.common.DeploymentContextImpl.getClassLoader(DeploymentContextImpl.java:216)
-	at com.sun.enterprise.v3.server.ApplicationLifecycle.prepare(ApplicationLifecycle.java:523)
-	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:538)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:558)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:554)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:553)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:584)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:576)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:575)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1496)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:120)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1878)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1754)
-	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:137)
-	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:113)
-	at fish.payara.arquillian.container.payara.embedded.PayaraContainer.deploy(PayaraContainer.java:227)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:151)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:118)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:239)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deploy(ContainerDeployController.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:71)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.container.impl.client.container.DeploymentExceptionHandler.verifyExpectedExceptionDuringDeploy(DeploymentExceptionHandler.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:92)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:77)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:232)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachManagedDeployment(ContainerDeployController.java:212)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deployManaged(ContainerDeployController.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
-	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:96)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:89)
-	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:163)
-	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:350)
-	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
-	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:177)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:115)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-
-febr. 21, 2020 12:25:33 DU. org.jboss.weld.bootstrap.WeldStartup <clinit>
-INFO: WELD-000900: 3.1.1 (Final)
-febr. 21, 2020 12:25:34 DU. com.sun.enterprise.v3.server.ApplicationLifecycle prepare
-SEVERE: Exception during lifecycle processing
-org.glassfish.deployment.common.DeploymentException: CDI deployment failure:WELD-001524: Unable to load proxy class for bean Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default] with class interface javax.transaction.UserTransaction -- WELD-001524: Unable to load proxy class for bean Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default] with class interface javax.transaction.UserTransaction
-	at org.jboss.weld.bean.proxy.ProxyFactory.getProxyClass(ProxyFactory.java:378)
-	at org.jboss.weld.bean.proxy.ProxyFactory.run(ProxyFactory.java:331)
-	at org.jboss.weld.bean.proxy.ProxyFactory.create(ProxyFactory.java:323)
-	at org.jboss.weld.bean.builtin.ee.AbstractEEBean.<init>(AbstractEEBean.java:36)
-	at org.jboss.weld.module.jta.UserTransactionBean.<init>(UserTransactionBean.java:52)
-	at org.jboss.weld.module.jta.WeldTransactionsModule.preBeanRegistration(WeldTransactionsModule.java:46)
-	at org.jboss.weld.module.WeldModules.preBeanRegistration(WeldModules.java:158)
-	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:224)
-	at org.jboss.weld.bootstrap.WeldStartup.deployBeans(WeldStartup.java:438)
-	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:86)
-	at org.glassfish.weld.WeldDeployer.processApplicationLoaded(WeldDeployer.java:513)
-	at org.glassfish.weld.WeldDeployer.event(WeldDeployer.java:425)
-	at org.glassfish.kernel.event.EventsImpl.send(EventsImpl.java:131)
-	at org.glassfish.internal.data.ApplicationInfo.load(ApplicationInfo.java:325)
-	at com.sun.enterprise.v3.server.ApplicationLifecycle.prepare(ApplicationLifecycle.java:531)
-	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:538)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:558)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:554)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:553)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:584)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:576)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:575)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1496)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:120)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1878)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1754)
-	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:137)
-	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:113)
-	at fish.payara.arquillian.container.payara.embedded.PayaraContainer.deploy(PayaraContainer.java:227)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:151)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:118)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:239)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deploy(ContainerDeployController.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:71)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.container.impl.client.container.DeploymentExceptionHandler.verifyExpectedExceptionDuringDeploy(DeploymentExceptionHandler.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:92)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:77)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:232)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachManagedDeployment(ContainerDeployController.java:212)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deployManaged(ContainerDeployController.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
-	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:96)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:89)
-	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:163)
-	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:350)
-	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
-	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:177)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:115)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-
-febr. 21, 2020 12:25:34 DU. org.glassfish.api.ActionReport failure
-SEVERE: Exception while loading the app
-febr. 21, 2020 12:25:34 DU. com.sun.enterprise.web.WebContainer unloadWebModule
-SEVERE: Undeployment failed for context /test
-febr. 21, 2020 12:25:34 DU. com.sun.logging.LogDomains getResourceBundle
-INFO: Cannot find the resource bundle for the name com.sun.logging.enterprise.system.util for class com.sun.appserv.ClassLoaderUtil using jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a
-febr. 21, 2020 12:25:34 DU. com.sun.appserv.ClassLoaderUtil releaseLoader
-WARNING: classloaderutil.errorReleasingLoader
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.ArrayList jdk.internal.loader.URLClassPath.loaders accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @f2ff811
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:344)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:284)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:176)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:170)
-	at com.sun.appserv.ClassLoaderUtil.getField(ClassLoaderUtil.java:308)
-	at com.sun.appserv.ClassLoaderUtil.initForClosingJars(ClassLoaderUtil.java:290)
-	at com.sun.appserv.ClassLoaderUtil.init(ClassLoaderUtil.java:263)
-	at com.sun.appserv.ClassLoaderUtil.releaseLoader(ClassLoaderUtil.java:139)
-	at com.sun.appserv.ClassLoaderUtil.releaseLoader(ClassLoaderUtil.java:111)
-	at org.glassfish.web.loader.WebappClassLoader.stop(WebappClassLoader.java:1870)
-	at org.glassfish.web.loader.WebappClassLoader.preDestroy(WebappClassLoader.java:1831)
-	at org.glassfish.deployment.common.DeploymentContextImpl.preDestroy(DeploymentContextImpl.java:176)
-	at com.sun.enterprise.v3.server.ApplicationLifecycle$3.actOn(ApplicationLifecycle.java:298)
-	at com.sun.enterprise.v3.server.ApplicationLifecycle.prepare(ApplicationLifecycle.java:537)
-	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:538)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:558)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:554)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:553)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:584)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:576)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:575)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1496)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:120)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1878)
-	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1754)
-	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:137)
-	at com.sun.enterprise.admin.cli.embeddable.DeployerImpl.deploy(DeployerImpl.java:113)
-	at fish.payara.arquillian.container.payara.embedded.PayaraContainer.deploy(PayaraContainer.java:227)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:151)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$3.call(ContainerDeployController.java:118)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:239)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deploy(ContainerDeployController.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:71)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.container.impl.client.container.DeploymentExceptionHandler.verifyExpectedExceptionDuringDeploy(DeploymentExceptionHandler.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:92)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$1.perform(ContainerDeployController.java:77)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:232)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachManagedDeployment(ContainerDeployController.java:212)
-	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.deployManaged(ContainerDeployController.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
-	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:96)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
-	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
-	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
-	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
-	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:89)
-	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:163)
-	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:350)
-	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
-	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:177)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:115)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-
-febr. 21, 2020 12:25:34 DU. org.glassfish.deployment.admin.DeployCommand execute
-SEVERE: Exception while loading the app : CDI deployment failure:WELD-001524: Unable to load proxy class for bean Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default] with class interface javax.transaction.UserTransaction -- WELD-001524: Unable to load proxy class for bean Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default] with class interface javax.transaction.UserTransaction
+febr. 21, 2020 3:40:22 DU. com.sun.enterprise.connectors.jms.util.JmsRaUtil getInstalledMqVersion
+WARNING: Check for a new version of MQ installation failed : C:\Users\VADAS\AppData\Local\Temp\gfembed17003987991298433246tmp\lib\install\applications\jmsra\..\imqjmsra.rar:C:\Users\VADAS\AppData\Local\Temp\gfembed17003987991298433246tmp\lib\install\applications\jmsra\imqjmsra.rar
+febr. 21, 2020 3:40:22 DU. com.sun.enterprise.v3.services.impl.GrizzlyProxy start0
+INFO: Network Listener JMS_PROXY_default_JMS_host started in: 15ms - bound to [/0.0.0.0:7676]
+febr. 21, 2020 3:40:23 DU. org.jboss.arquillian.container.test.impl.client.deployment.AbstractDeploymentScenarioGenerator logWarningIfArchiveHasUnexpectedFileExtension
+WARNING: Deployment archive of type JavaArchiveImpl has been given an unexpected file extension. Archive name: todo-app, deployment name: _DEFAULT_. It might not be wrong, but the container will rely on the given file extension, the archive type is only a description of a certain structure.
 ]]></system-err>
-  </testcase>
-  <testcase name="updateTodo" classname="com.vadas.service.TodoServiceTest" time="0">
-    <error message="ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer." type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
-</error>
-  </testcase>
-  <testcase name="createTodo" classname="com.vadas.service.TodoServiceTest" time="0.01">
-    <error message="ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer." type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
-</error>
-  </testcase>
-  <testcase name="getTodos" classname="com.vadas.service.TodoServiceTest" time="0">
-    <error message="ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer." type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: ArquillianServletRunner not found. Could not determine ContextRoot from ProtocolMetadata, please contact DeployableContainer developer.
-</error>
   </testcase>
 </testsuite>
