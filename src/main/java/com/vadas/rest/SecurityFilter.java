@@ -37,12 +37,12 @@ public class SecurityFilter implements ContainerRequestFilter {
         String authString = containerRequestContext.getHeaderString(HttpHeaders.AUTHORIZATION);
 
         // Throw an exception if no token received
-        if(authString == null || authString.isEmpty() || !authString.startsWith("Bearer")){
+        if(authString == null || authString.isEmpty() || !authString.startsWith(SecurityUtil.BEARER)){
             throw new NotAuthorizedException(Response.status(Response.Status.UNAUTHORIZED).build());
         }
 
         // Parse token
-        String token = authString.substring(("Bearer").length()).trim();
+        String token = authString.substring((SecurityUtil.BEARER).length()).trim();
         try{
             Key key = securityUtil.getSecurityKey();
             Jws<Claims> claimsJws = Jwts.parser().setSigningKey(key).parseClaimsJws(token);
@@ -76,12 +76,5 @@ public class SecurityFilter implements ContainerRequestFilter {
         } catch (Exception e) {
             containerRequestContext.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
         }
-
-        // Succeed if parsing is OK
-
-
-        // Throw an exception if parsing is NOK
-
-
     }
 }

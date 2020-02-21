@@ -1,5 +1,6 @@
 package com.vadas.service;
 
+import com.vadas.entity.User;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.impl.crypto.MacProvider;
 import org.apache.shiro.codec.Hex;
@@ -11,7 +12,6 @@ import javax.annotation.PostConstruct;
 import javax.crypto.SecretKey;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import java.security.Key;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
@@ -26,6 +26,8 @@ public class SecurityUtil {
 
     public static final String HASHED_PASSWORD_KEY = "hashedPassword";
     public static final String SALT_KEY = "salt";
+    public static final String BEARER = "Bearer";
+
     private SecretKey securityKey;
 
     @PostConstruct
@@ -60,7 +62,11 @@ public class SecurityUtil {
     }
 
     public boolean authenticateUser(String email, String password){
-        return queryService.authenticateUser(email, password);
+        User user = queryService.findUserByEmail(email);
+        if (user == null ){
+            return false;
+        }
+        return passwordsMatch(user.getPassword(), user.getSalt(), password);
     }
 
     private SecretKey generateKey(){

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="434207e4-9c78-4fc5-ae8c-7b75e464aff0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vadas/rest/Authz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vadas/rest/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vadas/rest/UserRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/rest/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/rest/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/rest/UserRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/rest/UserRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/SecurityUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
