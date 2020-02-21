@@ -8,7 +8,14 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "TodoUser")
+@NamedQuery(name = User.FIND_ALL_USERS, query = "select u from User u order by u.fullName")
+@NamedQuery(name = User.FIND_USER_BY_EMAIL, query = "select u from User u where u.email = :email")
+@NamedQuery(name = User.FIND_USER_BY_PASSWORD, query = "select u from User u where u.password = :password")
 public class User extends AbstractEntity {
+
+    public static final String FIND_ALL_USERS = "User.findAllUsers";
+    public static final String FIND_USER_BY_EMAIL = "User.findByEmail";
+    public static final String FIND_USER_BY_PASSWORD = "User.findByPassword";
 
     @NotNull(message = "Full name is mandatory.")
     @Size(min = 4, message = "The minimum required characters for the full name is 4.")
@@ -23,7 +30,7 @@ public class User extends AbstractEntity {
     @Size(min = 8, message = "Password length must be at least 8 characters.")
     @Pattern(regexp = "", message = "Password must be a combination of alphabetical, numeric and special characters!")
     private String password;
-    
+
     public String getFullName() {
         return fullName;
     }

@@ -6,11 +6,17 @@ import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.lang.annotation.Native;
 import java.time.LocalDate;
 
 @Entity
+@NamedQuery(name = Todo.FIND_TODO_BY_TASK, query = "select t from Todo t where t.task like :task and t.todoOwner.email = :email")
+@NamedQuery(name = Todo.FIND_ALL_TODOS_BY_USER, query = "select t from Todo t where t.todoOwner.email = :email")
+@NamedQuery(name = Todo.FIND_TODO_BY_ID, query = "select t from Todo t where t.id = :id and t.todoOwner.email = :email")
 public class Todo extends AbstractEntity {
+
+    public static final String FIND_TODO_BY_TASK = "Todo.findByTask";
+    public static final String FIND_ALL_TODOS_BY_USER = "Todo.findByUser";
+    public static final String FIND_TODO_BY_ID = "Todo.findById";
 
     @NotEmpty(message = "Task must not be empty!")
     @Size(min = 10, message = "Minimum required characters: 10")
@@ -31,6 +37,14 @@ public class Todo extends AbstractEntity {
     @PrePersist
     private void init(){
         setDateCreated(LocalDate.now());
+    }
+
+    public User getTodoOwner() {
+        return todoOwner;
+    }
+
+    public void setTodoOwner(User todoOwner) {
+        this.todoOwner = todoOwner;
     }
 
     public String getTask() {
