@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="434207e4-9c78-4fc5-ae8c-7b75e464aff0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/vadas/service/TodoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/vadas/service/TodoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vadas/entity/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vadas/entity/Todo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vadas/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vadas/service/TodoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-02-21T12-25-20_090.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vadas.service.TodoServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vadas.service.TodoServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vadas.service.TodoServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vadas.service.TodoServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vadas/service/TodoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vadas/service/TodoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/QueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vadas/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vadas/service/TodoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

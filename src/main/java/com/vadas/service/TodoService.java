@@ -30,11 +30,15 @@ public class TodoService {
     }
 
     public User saveUser(User user){
-        Map<String, String> credMap = securityUtil.hashPassword(user.getPassword());
-        user.setPassword(credMap.get(SecurityUtil.HASHED_PASSWORD_KEY));
-        user.setSalt(credMap.get(SecurityUtil.SALT_KEY));
-        entityManager.persist(user);
-        credMap.clear();
+        Integer count = (Integer) queryService.countUserByEmail(user.getEmail()).get(0);
+
+        if(user.getId() == null && count == 0){
+            Map<String, String> credMap = securityUtil.hashPassword(user.getPassword());
+            user.setPassword(credMap.get(SecurityUtil.HASHED_PASSWORD_KEY));
+            user.setSalt(credMap.get(SecurityUtil.SALT_KEY));
+            entityManager.persist(user);
+            credMap.clear();
+        }
         return user;
     }
 
