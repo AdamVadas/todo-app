@@ -1,3 +1,4 @@
+com\vadas\entity\Todo.class
 com\vadas\rest\TodoConfig.class
 com\vadas\rest\TodoRest.class
 com\vadas\service\TodoService.class
