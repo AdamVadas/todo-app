@@ -25,6 +25,11 @@ public class TodoService {
         email = "";
     }
 
+    public User saveUser(User user){
+        entityManager.persist(user);
+        return user;
+    }
+
     public Todo createTodo(Todo todo) {
         User userByEmail = queryService.findUserByEmail(email);
         if(userByEmail != null){
